@@ -136,6 +136,15 @@ generate-ticket/
     └── sample-ticket.md  # Reference example
 ```
 
+## Automate Ticket Filing
+
+By default, `/generate-ticket` outputs a draft ticket for you to copy into your project tracker. To skip the copy-paste step and create tickets directly, install a JIRA or YouTrack MCP server:
+
+- **JIRA** — Install an [Atlassian MCP server](https://github.com/sooperset/mcp-atlassian) so Claude can create issues in your JIRA project automatically.
+- **YouTrack** — Install a [YouTrack MCP server](https://github.com/nicholasgriffintn/youtrack-mcp-server) to file tickets straight into YouTrack.
+
+Once configured, Claude can create the ticket in your tracker immediately after generating it — no manual filing required.
+
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code) CLI installed and authenticated
